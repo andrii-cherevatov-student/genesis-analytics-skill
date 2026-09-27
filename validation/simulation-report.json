@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-09-27T18:07:39.3294094+00:00",
+  "replicationsPerScenario": 200,
+  "bootstrapIterations": 2000,
+  "blockLength": 3,
+  "practicalThreshold": 0.05,
+  "seed": 12345,
+  "scenarios": [
+    {
+      "scenario": {
+        "name": "flat, seasonal, AR(0.5)",
+        "annualGrowth": 0,
+        "noiseSd": 0.1,
+        "arPhi": 0.5,
+        "seasonalAmplitude": 0.3,
+        "spikes": 0,
+        "spikeSize": 1,
+        "reportingMonths": 24,
+        "historyMonths": 24,
+        "baseMonthlyViews": 20000
+      },
+      "replications": 200,
+      "trueClassification": "Stable",
+      "growthMae": 0.040328127495596,
+      "growthBias": -0.0021498617137350184,
+      "ciCoverage": 0.955,
+      "meanCiWidth": 0.21800987001647731,
+      "classificationAccuracy": 0.005,
+      "directionalFalsePositiveRate": 0,
+      "wrongDirectionRate": 0,
+      "inconclusiveRate": 0.995,
+      "pointDirectionAccuracy": "NaN",
+      "classDirectionAccuracy": "NaN",
+      "seasonalityMae": 0.03955050140422979,
+      "classCounts": {
+        "inconclusive": 199,
+        "stable": 1,
+        "increasing": 0,
+        "decreasing": 0
+      }
+    },
+    {
+      "scenario": {
+        "name": "flat, white noise",
+        "annualGrowth": 0,
+        "noiseSd": 0.1,
+        "arPhi": 0,
+        "seasonalAmplitude": 0,
+        "spikes": 0,
+        "spikeSize": 1,
+        "reportingMonths": 24,
+        "historyMonths": 24,
+        "baseMonthlyViews": 20000
+      },
+      "replications": 200,
+      "trueClassification": "Stable",
+      "growthMae": 0.03129577059588118,
+      "growthBias": -0.001624635696807814,
+      "ciCoverage": 0.915,
+      "meanCiWidth": 0.15092112848359482,
+      "classificationAccuracy": 0.02,
+      "directionalFalsePositiveRate": 0,
+      "wrongDirectionRate": 0,
+      "inconclusiveRate": 0.98,
+      "pointDirectionAccuracy": "NaN",
+      "classDirectionAccuracy": "NaN",
+      "seasonalityMae": 0.04332350330008706,
+      "classCounts": {
+        "inconclusive": 196,
+        "stable": 4,
+        "increasing": 0,
+        "decreasing": 0
+      }
+    },
+    {
+      "scenario": {
+        "name": "\u002B30%, seasonal, spikes",
+        "annualGrowth": 0.3,
+        "noiseSd": 0.1,
+        "arPhi": 0.3,
+        "seasonalAmplitude": 0.3,
+        "spikes": 2,
+        "spikeSize": 1,
+        "reportingMonths": 24,
+        "historyMonths": 24,
+        "baseMonthlyViews": 20000
+      },
+      "replications": 200,
+      "trueClassification": "Increasing",
+      "growthMae": 0.047638145068209584,
+      "growthBias": 0.000847907502662048,
+      "ciCoverage": 0.945,
+      "meanCiWidth": 0.24734789096628773,
+      "classificationAccuracy": 0.965,
+      "directionalFalsePositiveRate": "NaN",
+      "wrongDirectionRate": 0,
+      "inconclusiveRate": 0.035,
+      "pointDirectionAccuracy": 1,
+      "classDirectionAccuracy": 0.965,
+      "seasonalityMae": 0.04453562084912032,
+      "classCounts": {
+        "increasing": 193,
+        "inconclusive": 7,
+        "decreasing": 0,
+        "stable": 0
+      }
+    },
+    {
+      "scenario": {
+        "name": "-25%, AR(0.5)",
+        "annualGrowth": -0.25,
+        "noiseSd": 0.1,
+        "arPhi": 0.5,
+        "seasonalAmplitude": 0,
+        "spikes": 0,
+        "spikeSize": 1,
+        "reportingMonths": 24,
+        "historyMonths": 24,
+        "baseMonthlyViews": 20000
+      },
+      "replications": 200,
+      "trueClassification": "Decreasing",
+      "growthMae": 0.030705578828264045,
+      "growthBias": -0.0015036103741441088,
+      "ciCoverage": 0.915,
+      "meanCiWidth": 0.15894910585486438,
+      "classificationAccuracy": 0.96,
+      "directionalFalsePositiveRate": "NaN",
+      "wrongDirectionRate": 0,
+      "inconclusiveRate": 0.04,
+      "pointDirectionAccuracy": 1,
+      "classDirectionAccuracy": 0.96,
+      "seasonalityMae": 0.039331032718966825,
+      "classCounts": {
+        "decreasing": 192,
+        "inconclusive": 8,
+        "increasing": 0,
+        "stable": 0
+      }
+    },
+    {
+      "scenario": {
+        "name": "\u002B10%, 36 months",
+        "annualGrowth": 0.1,
+        "noiseSd": 0.08,
+        "arPhi": 0.3,
+        "seasonalAmplitude": 0.2,
+        "spikes": 0,
+        "spikeSize": 1,
+        "reportingMonths": 36,
+        "historyMonths": 24,
+        "baseMonthlyViews": 20000
+      },
+      "replications": 200,
+      "trueClassification": "Increasing",
+      "growthMae": 0.01832872884414049,
+      "growthBias": 0.00023926542871493427,
+      "ciCoverage": 0.94,
+      "meanCiWidth": 0.09628971613909279,
+      "classificationAccuracy": 0.6,
+      "directionalFalsePositiveRate": "NaN",
+      "wrongDirectionRate": 0,
+      "inconclusiveRate": 0.4,
+      "pointDirectionAccuracy": 1,
+      "classDirectionAccuracy": 0.6,
+      "seasonalityMae": 0.02880424863148092,
+      "classCounts": {
+        "increasing": 120,
+        "inconclusive": 80,
+        "decreasing": 0,
+        "stable": 0
+      }
+    }
+  ],
+  "acceptance": [
+    {
+      "metric": "95% CI empirical coverage",
+      "value": 0.934,
+      "target": "0.92–0.97",
+      "passed": true,
+      "scope": "all scenarios"
+    },
+    {
+      "metric": "Flat-series directional false-positive rate",
+      "value": 0,
+      "target": "\u003C 0.10",
+      "passed": true,
+      "scope": "true growth = 0"
+    },
+    {
+      "metric": "Strong-trend direction accuracy (point estimate)",
+      "value": 1,
+      "target": "\u003E 0.90",
+      "passed": true,
+      "scope": "|true growth| ≥ 20%"
+    },
+    {
+      "metric": "Strong-trend direction accuracy (classification)",
+      "value": 0.9625,
+      "target": "reported",
+      "passed": true,
+      "scope": "|true growth| ≥ 20%"
+    },
+    {
+      "metric": "Wrong-direction classification rate",
+      "value": 0,
+      "target": "\u003C 0.025",
+      "passed": true,
+      "scope": "all scenarios"
+    },
+    {
+      "metric": "Annualized growth MAE",
+      "value": 0.03365927016641826,
+      "target": "reported",
+      "passed": true,
+      "scope": "all scenarios"
+    },
+    {
+      "metric": "Seasonal effect MAE (log scale)",
+      "value": 0.03763012362827701,
+      "target": "\u003C 0.05",
+      "passed": true,
+      "scope": "seasonal scenarios"
+    }
+  ]
+}

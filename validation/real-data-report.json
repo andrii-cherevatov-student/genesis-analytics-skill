@@ -1,0 +1,365 @@
+{
+  "generatedAt": "2026-09-27T18:07:58.4079254+00:00",
+  "note": "Real Wikipedia series have no known true trend; these metrics describe stability of conclusions only.",
+  "cases": [
+    {
+      "case": {
+        "id": "stable-evergreen",
+        "category": "stable evergreen topic",
+        "language": "en",
+        "article": "Pythagorean theorem",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Decreasing",
+      "annualizedGrowth": -0.2530118244930598,
+      "ciLower": -0.34687716942814006,
+      "ciUpper": -0.1764370050245807,
+      "seasonalityStrength": 0.7131690098779189,
+      "anomalies": 2,
+      "leaveOneOutMaxShift": 0.005425943487142204,
+      "leaveOneOutClassificationAgreement": 1,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 1,
+      "estimatorDirectionAgreement": 1,
+      "residualLag1": -0.075,
+      "ljungBoxPValue": 0.4279,
+      "rollingOriginDirectionAgreement": 1,
+      "rollingOriginClassificationAgreement": 0.4,
+      "rollingOriginGrowthSpread": 0.14168110191547612,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.2530118244930598,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.2642311902061505,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.22780191110271508,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2022-12",
+          "lastMonth": "2025-11",
+          "annualizedGrowth": -0.17849412854631796,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2022-09",
+          "lastMonth": "2025-08",
+          "annualizedGrowth": -0.12255008829067437,
+          "classification": "Inconclusive"
+        }
+      ],
+      "concerns": []
+    },
+    {
+      "case": {
+        "id": "seasonal",
+        "category": "seasonal topic",
+        "language": "en",
+        "article": "Halloween",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Decreasing",
+      "annualizedGrowth": -0.2125145394185306,
+      "ciLower": -0.261418505504047,
+      "ciUpper": -0.17710798770002734,
+      "seasonalityStrength": 0.9901788801699893,
+      "anomalies": 1,
+      "leaveOneOutMaxShift": 0.007661503744027631,
+      "leaveOneOutClassificationAgreement": 1,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 1,
+      "estimatorDirectionAgreement": 1,
+      "residualLag1": 0.2523,
+      "ljungBoxPValue": 0.2239,
+      "rollingOriginDirectionAgreement": 1,
+      "rollingOriginClassificationAgreement": 0.8,
+      "rollingOriginGrowthSpread": 0.04909540118025746,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.2125145394185306,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.2113025923002092,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.22463135939599876,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-12",
+          "lastMonth": "2025-11",
+          "annualizedGrowth": -0.20417189724789941,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-09",
+          "lastMonth": "2025-08",
+          "annualizedGrowth": -0.1755359582157413,
+          "classification": "Inconclusive"
+        }
+      ],
+      "concerns": []
+    },
+    {
+      "case": {
+        "id": "high-growth",
+        "category": "high-growth topic",
+        "language": "en",
+        "article": "Large language model",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Inconclusive",
+      "annualizedGrowth": -0.08304067059913511,
+      "ciLower": -0.13401493539794962,
+      "ciUpper": -0.028416565508715075,
+      "seasonalityStrength": 0,
+      "anomalies": 0,
+      "leaveOneOutMaxShift": 0.00955904481434433,
+      "leaveOneOutClassificationAgreement": 1,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 1,
+      "estimatorDirectionAgreement": 1,
+      "residualLag1": 0.352,
+      "ljungBoxPValue": 0.0047,
+      "rollingOriginDirectionAgreement": 1,
+      "rollingOriginClassificationAgreement": 1,
+      "rollingOriginGrowthSpread": 0.011295281066494356,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.08304067059913511,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.09433595166562947,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.08940344269156186,
+          "classification": "Inconclusive"
+        }
+      ],
+      "concerns": [
+        "ResidualAutocorrelation: Remainder is autocorrelated (lag-1 r = 0.35, Ljung-Box p = 0.005); short-range dependence is handled by the block bootstrap, but slow swings can still make the interval optimistic."
+      ]
+    },
+    {
+      "case": {
+        "id": "declining",
+        "category": "declining topic",
+        "language": "en",
+        "article": "Internet Explorer",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Inconclusive",
+      "annualizedGrowth": -0.1068657879430599,
+      "ciLower": -0.18744071394456752,
+      "ciUpper": -0.0374372462027317,
+      "seasonalityStrength": 0.015830250980195526,
+      "anomalies": 2,
+      "leaveOneOutMaxShift": 0.0071876848388230385,
+      "leaveOneOutClassificationAgreement": 1,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 0.4,
+      "estimatorDirectionAgreement": 1,
+      "residualLag1": 0.1417,
+      "ljungBoxPValue": 0.9676,
+      "rollingOriginDirectionAgreement": 1,
+      "rollingOriginClassificationAgreement": 0.2,
+      "rollingOriginGrowthSpread": 0.11191921236711988,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.1068657879430599,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.1443709110040683,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.1578101647445207,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-12",
+          "lastMonth": "2025-11",
+          "annualizedGrowth": -0.1793423036688746,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-09",
+          "lastMonth": "2025-08",
+          "annualizedGrowth": -0.21878500031017978,
+          "classification": "Decreasing"
+        }
+      ],
+      "concerns": [
+        "WindowClassification: The classification differs in 3 of 5 nearby windows (estimates range −14.4% to −9.4%/yr)."
+      ]
+    },
+    {
+      "case": {
+        "id": "event-driven",
+        "category": "event-driven topic",
+        "language": "en",
+        "article": "Solar eclipse",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Decreasing",
+      "annualizedGrowth": -0.30513725267837155,
+      "ciLower": -0.5189180016550192,
+      "ciUpper": -0.06819174658715454,
+      "seasonalityStrength": 0.05616757915576287,
+      "anomalies": 5,
+      "leaveOneOutMaxShift": 0.018749039757943065,
+      "leaveOneOutClassificationAgreement": 0.9444444444444444,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 0.4,
+      "estimatorDirectionAgreement": 0.6666666666666666,
+      "residualLag1": 0.1512,
+      "ljungBoxPValue": 0.7896,
+      "rollingOriginDirectionAgreement": 0.8,
+      "rollingOriginClassificationAgreement": 0.2,
+      "rollingOriginGrowthSpread": 0.33220398341571955,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.30513725267837155,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.2794697495506794,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.2471338776477493,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2022-12",
+          "lastMonth": "2025-11",
+          "annualizedGrowth": -0.1766758899944436,
+          "classification": "Inconclusive"
+        },
+        {
+          "firstMonth": "2022-09",
+          "lastMonth": "2025-08",
+          "annualizedGrowth": 0.027066730737348,
+          "classification": "Inconclusive"
+        }
+      ],
+      "concerns": [
+        "WideInterval: The 95% interval spans 45 percentage points of annual growth, so the data are compatible with a wide range of trends.",
+        "SingleMonthInfluence: Removing a single month changes the classification in 2 of 36 cases (e.g. without 2024-02: Inconclusive, −28.6%/yr).",
+        "WindowClassification: The classification differs in 3 of 5 nearby windows (estimates range −34.8% to −26.7%/yr).",
+        "EstimatorDisagreement: Alternative estimator(s) point the other way: Year-over-year aggregate growth \u002B22.9%."
+      ]
+    },
+    {
+      "case": {
+        "id": "low-volume",
+        "category": "low-volume topic",
+        "language": "cs",
+        "article": "Přerušovaný půst",
+        "from": "2023-09-01",
+        "to": "2026-08-31"
+      },
+      "error": null,
+      "classification": "Decreasing",
+      "annualizedGrowth": -0.4571636319671548,
+      "ciLower": -0.5364737467033425,
+      "ciUpper": -0.30867520387737457,
+      "seasonalityStrength": 0.3892640760708198,
+      "anomalies": 2,
+      "leaveOneOutMaxShift": 0.012118741483173268,
+      "leaveOneOutClassificationAgreement": 1,
+      "windowDirectionAgreement": 1,
+      "windowClassificationAgreement": 1,
+      "estimatorDirectionAgreement": 1,
+      "residualLag1": 0.1424,
+      "ljungBoxPValue": 0.7398,
+      "rollingOriginDirectionAgreement": 1,
+      "rollingOriginClassificationAgreement": 1,
+      "rollingOriginGrowthSpread": 0.05673479490245592,
+      "rollingOrigin": [
+        {
+          "firstMonth": "2023-09",
+          "lastMonth": "2026-08",
+          "annualizedGrowth": -0.4571636319671548,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-06",
+          "lastMonth": "2026-05",
+          "annualizedGrowth": -0.44896547897213956,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2023-03",
+          "lastMonth": "2026-02",
+          "annualizedGrowth": -0.4112438300724227,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-12",
+          "lastMonth": "2025-11",
+          "annualizedGrowth": -0.4419167261481858,
+          "classification": "Decreasing"
+        },
+        {
+          "firstMonth": "2022-09",
+          "lastMonth": "2025-08",
+          "annualizedGrowth": -0.46797862497487863,
+          "classification": "Decreasing"
+        }
+      ],
+      "concerns": [
+        "LowVolume: Low traffic (about 12 views/day): small absolute changes, bots or a single external link can move monthly totals."
+      ]
+    }
+  ]
+}
