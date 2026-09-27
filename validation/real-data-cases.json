@@ -1,0 +1,8 @@
+[
+  { "id": "stable-evergreen", "category": "stable evergreen topic", "language": "en", "article": "Pythagorean theorem", "from": "2023-09-01", "to": "2026-08-31" },
+  { "id": "seasonal", "category": "seasonal topic", "language": "en", "article": "Halloween", "from": "2023-09-01", "to": "2026-08-31" },
+  { "id": "high-growth", "category": "high-growth topic", "language": "en", "article": "Large language model", "from": "2023-09-01", "to": "2026-08-31" },
+  { "id": "declining", "category": "declining topic", "language": "en", "article": "Internet Explorer", "from": "2023-09-01", "to": "2026-08-31" },
+  { "id": "event-driven", "category": "event-driven topic", "language": "en", "article": "Solar eclipse", "from": "2023-09-01", "to": "2026-08-31" },
+  { "id": "low-volume", "category": "low-volume topic", "language": "cs", "article": "Přerušovaný půst", "from": "2023-09-01", "to": "2026-08-31" }
+]

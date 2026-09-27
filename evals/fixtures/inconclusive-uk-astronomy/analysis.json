@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0",
+  "tool": {
+    "name": "wiki-interest",
+    "version": "1.0.0"
+  },
+  "generatedAt": "2026-09-27T12:00:00+00:00",
+  "status": "ok",
+  "topic": "astronomy",
+  "request": {
+    "topic": "astronomy",
+    "languages": [
+      "uk"
+    ],
+    "from": "2024-09-01",
+    "to": "2026-08-31",
+    "practicalTrendThreshold": 0.05,
+    "excludedMonths": [],
+    "articleOverrides": {},
+    "sourceLanguage": "en",
+    "generatePdf": false,
+    "historyMonths": 24,
+    "bootstrapIterations": 2000,
+    "blockLength": 3,
+    "rerunCommand": "wiki-interest analyze --topic \"astronomy\" --languages uk --from 2024-09-01 --to 2026-08-31 --output wiki-interest-output"
+  },
+  "reportingPeriod": {
+    "from": "2024-09-01",
+    "to": "2026-08-31",
+    "firstMonth": "2024-09",
+    "lastMonth": "2026-08",
+    "months": 24,
+    "note": null
+  },
+  "results": [
+    {
+      "language": "uk",
+      "article": {
+        "language": "uk",
+        "requestedTopic": "astronomy",
+        "articleTitle": "Астрономія",
+        "articleUrl": "https://uk.wikipedia.org/wiki/Астрономія",
+        "method": "InterlanguageLink",
+        "confidence": "High"
+      },
+      "summary": "[uk] Астрономія: Inconclusive: the point estimate is +18.0% per year but the 95% CI −5.0% to +41.0% is compatible with stability or growth. This is not evidence of stability.",
+      "volume": {
+        "totalViews": 1240000,
+        "months": 24,
+        "averageMonthlyViews": 51666.7,
+        "averageDailyViews": 1698.5,
+        "last12MonthsViews": 640000,
+        "previous12MonthsViews": 600000,
+        "last12VsPrevious12Change": 0.0667,
+        "peakMonth": "2025-09",
+        "peakMonthViews": 78000,
+        "dayCoverage": 1.0
+      },
+      "trend": {
+        "classification": "Inconclusive",
+        "annualizedGrowth": 0.18,
+        "confidenceInterval95": {
+          "lower": -0.05,
+          "upper": 0.41,
+          "confidenceLevel": 0.95
+        },
+        "monthlyLogSlope": 0.013793,
+        "practicalThreshold": 0.05,
+        "compatibleWith": [
+          "stability",
+          "growth"
+        ],
+        "mannKendall": {
+          "tau": 0.21,
+          "pValue": 0.16,
+          "variant": "Standard",
+          "s": 58,
+          "z": 1.4,
+          "varianceCorrectionFactor": 1,
+          "sampleSize": 24
+        },
+        "interpretation": "Inconclusive: the point estimate is +18.0% per year but the 95% CI −5.0% to +41.0% is compatible with stability or growth. This is not evidence of stability; more history or a clearer signal is needed."
+      },
+      "seasonality": {
+        "strength": 0.31,
+        "category": "Weak",
+        "monthlyEffects": [
+          {
+            "month": 1,
+            "monthName": "January",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 2,
+            "monthName": "February",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 3,
+            "monthName": "March",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 4,
+            "monthName": "April",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 5,
+            "monthName": "May",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 6,
+            "monthName": "June",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 7,
+            "monthName": "July",
+            "logEffect": -0.1625,
+            "relativeEffect": -0.15
+          },
+          {
+            "month": 8,
+            "monthName": "August",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 9,
+            "monthName": "September",
+            "logEffect": 0.1823,
+            "relativeEffect": 0.2
+          },
+          {
+            "month": 10,
+            "monthName": "October",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 11,
+            "monthName": "November",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 12,
+            "monthName": "December",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          }
+        ],
+        "peakMonth": 9,
+        "peakMonthName": "September",
+        "peakUplift": 0.2,
+        "lowMonth": 7,
+        "lowMonthName": "July",
+        "lowDrop": -0.15,
+        "cyclesObserved": 4.0,
+        "interpretation": "Weak seasonality (strength 0.31): September is typically +20% versus the yearly baseline and July −15%. This recurring pattern is separate from the long-term trend."
+      },
+      "anomalies": [],
+      "robustness": {
+        "statement": "The Inconclusive conclusion holds under the checks performed (unchanged classification in 24 of 24 leave-one-out fits, same direction in 5 of 5 nearby windows, 3 of 3 alternative estimators agree on direction), with caveats: The 95% interval spans 46 percentage points of annual growth, so the data are compatible with a wide range of trends.",
+        "concerns": [
+          {
+            "code": "WideInterval",
+            "severity": "Caution",
+            "message": "The 95% interval spans 46 percentage points of annual growth, so the data are compatible with a wide range of trends."
+          }
+        ],
+        "confidenceIntervalWidth": 0.46
+      },
+      "warnings": []
+    }
+  ],
+  "failures": [],
+  "comparison": null,
+  "warnings": [],
+  "caveats": [
+    "Wikipedia pageviews measure informational attention to specific articles. They are not a measure of market size, willingness to pay or product demand.",
+    "Only views of the resolved article title are counted; views of redirects, related articles and other languages are not included.",
+    "Absolute volumes depend on the size and reach of each language edition; compare growth rates rather than raw traffic across languages.",
+    "An Inconclusive classification means the data cannot distinguish growth, decline and stability. It is not evidence that interest is stable.",
+    "'Stable' means the whole 95% interval lies within ±5%/yr; monthly traffic can still vary strongly with the seasons."
+  ],
+  "artifacts": {
+    "analysisJson": "analysis.json",
+    "pageviewsCsv": "pageviews.csv",
+    "trendChart": "trend.png",
+    "rawViewsChart": "trend_raw.png",
+    "pdf": null
+  }
+}

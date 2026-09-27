@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0",
+  "tool": {
+    "name": "wiki-interest",
+    "version": "1.0.0"
+  },
+  "generatedAt": "2026-09-27T12:00:00+00:00",
+  "status": "ok",
+  "topic": "learning English",
+  "request": {
+    "topic": "learning English",
+    "languages": [
+      "pl"
+    ],
+    "from": "2024-09-01",
+    "to": "2026-08-31",
+    "practicalTrendThreshold": 0.05,
+    "excludedMonths": [],
+    "articleOverrides": {},
+    "sourceLanguage": "en",
+    "generatePdf": false,
+    "historyMonths": 24,
+    "bootstrapIterations": 2000,
+    "blockLength": 3,
+    "rerunCommand": "wiki-interest analyze --topic \"learning English\" --languages pl --from 2024-09-01 --to 2026-08-31 --output wiki-interest-output"
+  },
+  "reportingPeriod": {
+    "from": "2024-09-01",
+    "to": "2026-08-31",
+    "firstMonth": "2024-09",
+    "lastMonth": "2026-08",
+    "months": 24,
+    "note": null
+  },
+  "results": [
+    {
+      "language": "pl",
+      "article": {
+        "language": "pl",
+        "requestedTopic": "learning English",
+        "articleTitle": "Język angielski",
+        "articleUrl": "https://pl.wikipedia.org/wiki/Język_angielski",
+        "method": "InterlanguageLink",
+        "confidence": "High"
+      },
+      "summary": "[pl] Język angielski: Underlying interest is stable: +1.2% per year (95% CI −3.1% to +4.0%). Strong seasonality: September +35%, July −30%.",
+      "volume": {
+        "totalViews": 1240000,
+        "months": 24,
+        "averageMonthlyViews": 51666.7,
+        "averageDailyViews": 1698.5,
+        "last12MonthsViews": 640000,
+        "previous12MonthsViews": 600000,
+        "last12VsPrevious12Change": 0.0667,
+        "peakMonth": "2025-09",
+        "peakMonthViews": 78000,
+        "dayCoverage": 1.0
+      },
+      "trend": {
+        "classification": "Stable",
+        "annualizedGrowth": 0.012,
+        "confidenceInterval95": {
+          "lower": -0.031,
+          "upper": 0.04,
+          "confidenceLevel": 0.95
+        },
+        "monthlyLogSlope": 0.000994,
+        "practicalThreshold": 0.05,
+        "compatibleWith": [
+          "stability"
+        ],
+        "mannKendall": {
+          "tau": 0.02,
+          "pValue": 0.88,
+          "variant": "Standard",
+          "s": 58,
+          "z": 1.4,
+          "varianceCorrectionFactor": 1,
+          "sampleSize": 24
+        },
+        "interpretation": "Underlying interest is stable: +1.2% per year (95% CI −3.1% to +4.0%); the whole interval lies within the ±5% practical threshold."
+      },
+      "seasonality": {
+        "strength": 0.78,
+        "category": "Strong",
+        "monthlyEffects": [
+          {
+            "month": 1,
+            "monthName": "January",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 2,
+            "monthName": "February",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 3,
+            "monthName": "March",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 4,
+            "monthName": "April",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 5,
+            "monthName": "May",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 6,
+            "monthName": "June",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 7,
+            "monthName": "July",
+            "logEffect": -0.3567,
+            "relativeEffect": -0.3
+          },
+          {
+            "month": 8,
+            "monthName": "August",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 9,
+            "monthName": "September",
+            "logEffect": 0.3001,
+            "relativeEffect": 0.35
+          },
+          {
+            "month": 10,
+            "monthName": "October",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 11,
+            "monthName": "November",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          },
+          {
+            "month": 12,
+            "monthName": "December",
+            "logEffect": 0.0,
+            "relativeEffect": 0.0
+          }
+        ],
+        "peakMonth": 9,
+        "peakMonthName": "September",
+        "peakUplift": 0.35,
+        "lowMonth": 7,
+        "lowMonthName": "July",
+        "lowDrop": -0.3,
+        "cyclesObserved": 4.0,
+        "interpretation": "Strong seasonality (strength 0.78): September is typically +35% versus the yearly baseline and July −30%. This recurring pattern is separate from the long-term trend."
+      },
+      "anomalies": [],
+      "robustness": {
+        "statement": "The Stable conclusion is robust to the checks performed: unchanged classification in 24 of 24 leave-one-out fits, same direction in 5 of 5 nearby windows, 3 of 3 alternative estimators agree on direction.",
+        "concerns": [],
+        "confidenceIntervalWidth": 0.071
+      },
+      "warnings": []
+    }
+  ],
+  "failures": [],
+  "comparison": null,
+  "warnings": [],
+  "caveats": [
+    "Wikipedia pageviews measure informational attention to specific articles. They are not a measure of market size, willingness to pay or product demand.",
+    "Only views of the resolved article title are counted; views of redirects, related articles and other languages are not included.",
+    "Absolute volumes depend on the size and reach of each language edition; compare growth rates rather than raw traffic across languages.",
+    "An Inconclusive classification means the data cannot distinguish growth, decline and stability. It is not evidence that interest is stable.",
+    "'Stable' means the whole 95% interval lies within ±5%/yr; monthly traffic can still vary strongly with the seasons.",
+    "At least one series has a stable long-term trend but pronounced seasonality: interest does vary within the year even though it is not growing or shrinking."
+  ],
+  "artifacts": {
+    "analysisJson": "analysis.json",
+    "pageviewsCsv": "pageviews.csv",
+    "trendChart": "trend.png",
+    "rawViewsChart": "trend_raw.png",
+    "pdf": null
+  }
+}

@@ -1,0 +1,9 @@
+bin/
+obj/
+.build/
+.cache/
+wiki-interest-output/
+tmp-out/
+.idea/
+out/
+evals/runs/
